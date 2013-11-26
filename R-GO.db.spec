@@ -2,12 +2,12 @@
 
 Summary:	A set of annotation maps describing the entire Gene Ontology
 Name:		R-%{packname}
-Version:	2.8.0
+Version:	2.10.1
 Release:	1
 License:	Artistic 2.0
 Group:		Applications/Engineering
 Source0:	http://www.bioconductor.org/packages/release/data/annotation/src/contrib/%{packname}_%{version}.tar.gz
-# Source0-md5:	667578e99cc7b8d1de1b03dcb580ff27
+# Source0-md5:	5429c641ae326f75894ccfff9105dd21
 URL:		http://www.bioconductor.org/packages/release/data/annotation/html/GO.db.html
 BuildRequires:	R-AnnotationDbi
 BuildRequires:	R
