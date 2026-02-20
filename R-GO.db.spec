@@ -3,7 +3,7 @@
 Summary:	A set of annotation maps describing the entire Gene Ontology
 Name:		R-%{packname}
 Version:	2.10.1
-Release:	1
+Release:	2
 License:	Artistic 2.0
 Group:		Applications/Engineering
 Source0:	http://www.bioconductor.org/packages/release/data/annotation/src/contrib/%{packname}_%{version}.tar.gz
