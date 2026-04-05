@@ -1,14 +1,15 @@
 %define		packname	GO.db
 
+%undefine	_debugsource_packages
 Summary:	A set of annotation maps describing the entire Gene Ontology
 Name:		R-%{packname}
-Version:	2.10.1
-Release:	2
+Version:	3.22.0
+Release:	1
 License:	Artistic 2.0
 Group:		Applications/Engineering
-Source0:	http://www.bioconductor.org/packages/release/data/annotation/src/contrib/%{packname}_%{version}.tar.gz
-# Source0-md5:	5429c641ae326f75894ccfff9105dd21
-URL:		http://www.bioconductor.org/packages/release/data/annotation/html/GO.db.html
+Source0:	https://bioconductor.org/packages/release/data/annotation/src/contrib/%{packname}_%{version}.tar.gz
+# Source0-md5:	5ae5557afa56227c4c9c145907b1f585
+URL:		https://bioconductor.org/packages/release/data/annotation/html/GO.db.html
 BuildRequires:	R-AnnotationDbi
 BuildRequires:	R
 BuildRequires:	texlive-latex
